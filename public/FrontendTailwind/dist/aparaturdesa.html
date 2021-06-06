@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Aparatur Desa
+    </title>
+    <!-- flickity.css -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Icon Logo -->
+    <link rel="shortcut icon" href="img/Indramayu.png">
+    <!-- Fontawesome -->
+    <link href="../fontawesome/css/all.css" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="assets/index.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+      }
+    </style>
+    
+  </head>
+  <body class="leading-normal tracking-normal text-white bg-green-600" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="flex items-center space-x-3 p-2">
+          <button class="relative z-10 w-12 h-12">
+              <img class="" src="img/Indramayu.png">
+          </button>
+          <a href="index.html" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
+            SID KENANGA
+          </a>
+        </div>
+          
+        <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="index.html">Beranda</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="tentang.html">Tentang</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="aparaturdesa.html">Aparatur Desa</a>
+            </li>
+          </ul>
+          <button
+            id="navAction"
+            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          >
+            Download Apk
+          </button>
+        </div>
+      </div>
+      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+    
+    <!--Hero-->
+    <div class="pt-24">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Right Col-->
+        </div>
+    </div>
+        
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          Aparatur Desa
+        </h1>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+
+        <div class="md:w-1/3 p-6 mx-auto">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t-xl rounded-b-xl overflow-hidden shadow">
+            <div class="px-8 py-5 bg-gray-400 rounded-t-xl">
+              <div class="items-center">
+                <div class="flex-shrink-0 mr-3">
+                  <img class="mx-auto w-25 h-24 rounded-full border-2 border-white" src="img/23.png" alt="kuwu">
+                </div>
+              </div>
+              <div class="text-white text-center">
+                Andri Firmansyah
+              </div>
+            </div>
+            <div class="bg-white shadow rounded-b-xl overflow-hidden">
+              <div class="px-8 py-5 leading-relaxed text-xl text-gray-800">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="bg-white">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex mb-6 text-black">
+            <div class="flex items-center space-x-3 p-2">
+              <button class="relative z-10 w-12 h-12">
+                  <img class="" src="img/Indramayu.png">
+              </button>
+              <a href="index.html" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
+                SID KENANGA
+              </a>
+            </div>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6"></p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500"></a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500"></a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Contact</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Social</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Instagram</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Youtube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Company</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
+    </footer>
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top w-10 h-10 fixed bottom-0 right-0 mb-5 mr-5 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg z-20 duration-300 hover:bg-blue-400">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+
+    
+
+    <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  -->
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/main.js"></script> 
+
+  </body>
+</html>
